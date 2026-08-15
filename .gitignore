@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables / secrets
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw and temporary data
+data/raw/*
+data/interim/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+
+# Temporary/export files
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Power BI temporary files
+*.pbitmp
