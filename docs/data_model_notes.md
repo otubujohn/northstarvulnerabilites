@@ -1,3 +1,4 @@
+
 # Data Model and Grain
 
 ## dim_asset
